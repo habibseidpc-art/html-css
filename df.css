@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(92, 194, 133);
+    background-position: center;
+    background-image:url(phtos/6b8216625679a7ea163421694c1a7f89.jpg) ;
+    background-repeat: none;
+    margin: 0;
+}
+h1{
+    background-color: aqua;
+    color: rgb(66, 62, 72);
+}
+h3{
+    color: #8e8ea4;
+}
+p{
+    color: azure;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.pages{
+    text-align: center;
+}
+.pages a{
+    color: antiquewhite;
+    padding:10px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pages a.active{
+    background-color: rgb(8, 93, 104);
+    text-align: center;
+    color:#131f0a ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.pages a:hover:not(.active){
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: rgb(17, 17, 171);
+}
+.home{
+    background-color: rgb(90, 236, 61);
+    color: rgb(139, 84, 17);
+    font-style:inherit;
+    font-weight: bold;
+}
+.nai ul{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(159, 167, 173);
+    overflow: hidden;
+    list-style-type:none;
+}
+.nai a{
+    text-decoration: none;
+    padding:10px ;
+    display: block;
+    text-align: center;
+    color: rgb(102, 146, 242);
+}
+.nai a:hover{
+    background-color: aliceblue;
+}
+.nai li{
+    float: left;
+}
+.nai a:visited{
+    background-color: rgb(129, 96, 96);
+    color: black;
+}
+#hh{
+    color: rgb(1, 12, 6);
+}
+.lk ul{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(159, 167, 173);
+    overflow: hidden;
+    list-style-type:none;
+}
+.lk a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(120, 106, 190, 0.765);
+    overflow: hidden;
+    list-style-type:none;
+    padding: 23px;
+}
+.lk a:hover{
+    background-color: rgb(150, 177, 177);
+    font-size: larger;
+}
+.lk li{
+    float: left;
+}
+.lk a:visited{
+    color: rgba(249, 249, 248, 0.852);
+}
+.gks{
+    width: 150px;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid rgb(130, 172, 235);
+}
+.gks img{
+    width:100%;
+    height: auto;
+}
+.gks .description{
+    padding: 2px;
+    text-align: center;
+    color: rgb(14, 15, 16);
+    background-color: rgb(100, 120, 123);
+}
+.mew{
+    background-color: ;
+}
